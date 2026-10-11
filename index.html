@@ -167,21 +167,25 @@ footer .logo{text-align:left;color:#fff;font-size:34px;margin-bottom:12px}footer
 .oc-i svg{width:22px;height:22px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .oc-r b{display:block;font-size:18px}.oc-r small{color:var(--mute);font-size:14px}
 @media(max-width:760px){.oc-in{grid-template-columns:1fr;padding:28px 18px}}
-.spot{background:var(--dark);color:#fff;padding:56px 0}.spot-in{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
-.spot h2{text-align:left;color:#fff;margin:0 0 12px}.spot h2 em{color:var(--gold)}.spot p{margin:0 0 18px;max-width:42ch;color:#d9e7dc}.spot .spot-k{color:var(--gold);font-weight:800;margin-bottom:6px}
-.spot .btn{background:var(--gold);color:#1c2a21;font-weight:800}
-.spot-i{position:relative;display:grid;place-items:center;min-height:380px}
-.spot-i img{width:min(270px,64vw);aspect-ratio:1;object-fit:contain;background:#fff;border-radius:28px;box-shadow:0 18px 40px rgba(0,0,0,.35);transform:rotate(-4deg)}
-.chip{position:absolute;background:var(--gold);color:#1c2a21;font-weight:800;font-size:14px;padding:8px 14px;border-radius:99px;box-shadow:0 6px 16px rgba(0,0,0,.25)}
-.c1{left:2%;top:14%}.c2{right:2%;top:44%}.c3{left:4%;bottom:12%}
-.story{padding:64px 0}.story-in{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
-.story-i{position:relative;width:min(380px,84vw);aspect-ratio:1;margin:0 auto}
-.story-i:before{content:"";position:absolute;inset:0;border:2px dashed var(--olive);border-radius:50%}
-.story-i img{position:absolute;inset:7%;width:86%;height:86%;border-radius:50%;object-fit:cover;object-position:60% 40%}
-.bd{position:absolute;background:#fff;color:#1c2a21;border-radius:16px;padding:8px 14px;box-shadow:0 8px 20px rgba(0,0,0,.15);font-size:13px;line-height:1.2;text-align:center}
-.bd b{display:block;font:800 20px var(--sans);color:var(--brown)}
-.b1{top:2%;left:-4%}.b2{top:42%;right:-6%}.b3{bottom:2%;left:4%}
-.story-t h2{text-align:left}.story-t p{color:var(--mute);margin:0 0 14px}.sign{font:700 22px var(--ser);color:var(--brown);margin:18px 0}
+.spot2{background:#1a3623;color:#fff}
+.spot2-img img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:88% 50%}
+.spot2-t{padding:26px 20px 44px}
+.spot2 h2{text-align:left;color:#fff;margin:0 0 10px}.spot2 h2 em{color:var(--gold)}
+.spot2 p{color:#d9e7dc;margin:0 0 18px;max-width:44ch}.spot2 .spot-k{color:var(--gold);font-weight:800;margin-bottom:6px}
+.calls{display:flex;gap:22px;margin:4px 0 24px;flex-wrap:wrap}.calls span{display:grid;justify-items:center;gap:8px;font-size:14px;font-weight:700;max-width:96px;text-align:center}
+.calls i{width:52px;height:52px;border-radius:50%;background:var(--gold);display:grid;place-items:center}.calls svg{width:26px;height:26px;fill:none;stroke:#1c2a21;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.spot2 .btn{background:var(--gold);color:#1c2a21;font-weight:800}
+@media(min-width:900px){.spot2{position:relative;min-height:560px;display:flex;align-items:center}.spot2-img{position:absolute;inset:0}.spot2-img img{height:100%;aspect-ratio:auto;object-position:center}.spot2-t{position:relative;width:100%;max-width:1180px;margin:0 auto;padding:60px 20px}.spot2-t>*{max-width:440px}}
+.story{padding:64px 0;text-align:center}.story h2{margin-bottom:28px}
+.orbit{position:relative;width:min(340px,84vw);aspect-ratio:1;margin:0 auto 32px}
+.orbit .r{position:absolute;border-radius:50%;border:1.5px solid}.r1{inset:0;border-color:var(--gold)}.r2{inset:9%;border-color:var(--brown)}.r3{inset:19%;border-color:var(--olive)}
+.orbit .d{position:absolute;width:8%;aspect-ratio:1;border-radius:50%}
+.orbit img{position:absolute;inset:14%;width:72%;height:72%;object-fit:contain}
+.story-t p{color:var(--mute);max-width:56ch;margin:0 auto 16px}.sign{font:700 22px var(--ser);color:var(--olive);margin:22px 0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:460px;margin:0 auto 26px}
+.stats div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 6px;font-size:13px;line-height:1.25;color:#1c2a21}
+.stats b{display:block;font:800 20px var(--sans);color:var(--brown)}
+@media(min-width:900px){.story-in{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;text-align:left}.story-t p{margin-left:0}.stats{margin-left:0}.orbit{margin-bottom:0}}
 .faq2{padding:64px 0}.faq-l{max-width:780px;margin:0 auto}
 .faq-l details{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:16px 18px;margin-bottom:12px}
 .faq-l summary{cursor:pointer;font-weight:800;font-size:17px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
@@ -189,7 +193,6 @@ footer .logo{text-align:left;color:#fff;font-size:34px;margin-bottom:12px}footer
 .faq-l summary:after{content:"+";flex:none;width:30px;height:30px;border-radius:50%;background:var(--olive);color:#fff;display:grid;place-items:center;font-size:20px}
 .faq-l details[open] summary:after{content:"\2212"}
 .faq-l details p{margin:12px 0 0;color:var(--mute)}.faq-l a{text-decoration:underline;color:var(--olive)}
-@media(max-width:760px){.spot-in,.story-in{grid-template-columns:1fr}.spot-i{min-height:340px}.story-in{gap:36px}}
 </style>
 </head>
 <body>
@@ -221,14 +224,14 @@ footer .logo{text-align:left;color:#fff;font-size:34px;margin-bottom:12px}footer
 
 
 
-<section class="spot"><div class="wrap spot-in"><div><p class="spot-k">Spice spotlight</p><h2>Rasoi ka <em>Superhero</em></h2><p>Haldi Powder is the golden spice that goes into almost every Indian kitchen, from dal to sabji.</p><a class="btn" id="hl" href="#/shop">Shop Haldi Powder</a></div><div class="spot-i"><img src="img/p9.jpg" alt="VSA Haldi Powder pouch" loading="lazy"><span class="chip c1">Bright colour</span><span class="chip c2">Rich aroma</span><span class="chip c3">Everyday cooking</span></div></div></section>
+<section class="spot2"><div class="spot2-img"><img src="img/spot.jpg" alt="VSA Haldi Powder pouch beside a wooden bowl of turmeric and fresh turmeric roots" loading="lazy"></div><div class="spot2-t"><p class="spot-k">Spice spotlight</p><h2>Rasoi ka <em>Superhero</em></h2><p>Haldi Powder is the golden spice that goes into almost every Indian kitchen, from dal to sabji.</p><div class="calls"><span><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></i>Bright colour</span><span><i><svg viewBox="0 0 24 24"><path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15M5 19l8-8"/></svg></i>Rich aroma</span><span><i><svg viewBox="0 0 24 24"><path d="M3 12h18a8 8 0 01-8 8h-2a8 8 0 01-8-8zM8 8c0-2 2-2 2-4M13 8c0-2 2-2 2-4"/></svg></i>Everyday cooking</span></div><a class="btn" id="hl" href="#/shop">Shop Haldi Powder</a></div></section>
 <section id="best"><div class="wrap"><h2>Popular <em>Products</em></h2><div class="carw"><div class="car" id="prod"></div><button class="arr l" data-d="-1" aria-label="Previous">&#8249;</button><button class="arr r" data-d="1" aria-label="Next">&#8250;</button></div><p style="text-align:center;margin-top:28px"><a class="btn" href="#/shop">View all products</a></p></div></section>
 
 
 
 
 
-<section class="cream story"><div class="wrap story-in"><div class="story-i"><img src="img/about.jpg" alt="Whole spices and spice powders in silver plates" loading="lazy"><span class="bd b1"><b>10+</b>years of experience</span><span class="bd b2"><b>Own</b>facility in India</span><span class="bd b3"><b>Pan-India</b>delivery</span></div><div class="story-t"><h2>Rooted in India, <em>packed with care</em></h2><p>VS Agro is a manufacturer and processor of natural spices. We grade and pack our spices by their properties and by what our customers need, from home kitchens to shops and restaurants.</p><p>Our aim is simple: spices that are pure, packed fresh and fairly priced, so every home-cooked meal tastes the way it should.</p><div class="sign">Ghar Ka Khana VSA Se Hi Banana!</div><a class="btn" href="#/about">Read our story</a></div></div></section>
+<section class="cream story"><div class="wrap"><h2>Rooted in India, <em>packed with care</em></h2><div class="story-in"><div class="orbit"><i class="r r1"></i><i class="r r2"></i><i class="r r3"></i><img src="img/bowls.webp" alt="Seven wooden bowls of Indian spices" loading="lazy"><i class="d" style="left:8%;top:8%;background:var(--gold)"></i><i class="d" style="right:12%;top:14%;background:var(--brown)"></i><i class="d" style="right:0;top:46%;background:var(--gold)"></i><i class="d" style="left:2%;top:58%;background:var(--olive)"></i><i class="d" style="right:14%;bottom:12%;background:var(--brown)"></i><i class="d" style="left:14%;bottom:2%;background:var(--gold)"></i></div><div class="story-t"><p>VS Agro is a manufacturer and processor of natural spices. We grade and pack our spices by their properties and by what our customers need, from home kitchens to shops and restaurants.</p><p>Our aim is simple: spices that are pure, packed fresh and fairly priced, so every home-cooked meal tastes the way it should.</p><div class="sign">Ghar Ka Khana VSA Se Hi Banana!</div><div class="stats"><div><b>10+</b>years of experience</div><div><b>Own</b>facility in India</div><div><b>Pan-India</b>delivery</div></div><a class="btn" href="#/about">Read our story</a></div></div></div></section>
 <section class="faq2"><div class="wrap"><h2>Frequently asked <em>questions</em></h2><div class="faq-l"><details><summary>Where are VSA spices made?</summary><p>VS Agro is a manufacturer and processor of natural spices. Everything is made and packed at our own facility in India.</p></details><details><summary>Do you deliver across India?</summary><p>Yes. We deliver across India, and delivery is free on orders above ₹499.</p></details><details><summary>Can I order in bulk for my shop or restaurant?</summary><p>Yes. We supply shops, restaurants and other bulk buyers. Call <a href="tel:+917209253147">+91 72092 53147</a> or email <a href="mailto:care@vsagro.co.in?subject=Bulk%20order%20enquiry">care@vsagro.co.in</a> with what you need.</p></details><details><summary>How do I place an order on this website?</summary><p>Add products to your cart, then use Send order by email or Call to order on the cart page. Online payment is not available on this site yet.</p></details><details><summary>How are the spices packed?</summary><p>Spices are packed hygienically, with strict quality checks, to keep them fresh and pure.</p></details><details><summary>Do you have a product catalogue?</summary><p>Yes. You can download our PDF brochure from the Contact page or from the order section on the home page.</p></details></div></div></section>
 <section class="oc"><div class="wrap oc-in"><div><h2>Order direct from <em>VS Agro</em></h2><p>Buying for a shop, restaurant or hotel? We supply straight from our own facility and deliver across India. Delivery is free on orders above ₹499.</p></div><div class="oc-l"><a class="oc-r" href="tel:+917209253147"><span class="oc-i"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span><span><b>+91 72092 53147</b><small>Call to order</small></span></a><a class="oc-r" href="tel:+916201749983"><span class="oc-i"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span><span><b>+91 62017 49983</b><small>Call to order</small></span></a><a class="oc-r" href="mailto:care@vsagro.co.in?subject=Enquiry%20from%20VS%20Agro%20website"><span class="oc-i"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span><b>care@vsagro.co.in</b><small>Email your requirement</small></span></a><a class="oc-r" href="https://www.vsagro.co.in/wp-content/uploads/2026/03/VSA-Catalogue.pdf"><span class="oc-i"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></span><span><b>Download catalogue</b><small>PDF brochure with the full range</small></span></a></div></div></section>
 </div><div id="view"></div></main>
